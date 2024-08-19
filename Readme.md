@@ -19,39 +19,7 @@ Ensure you have the following installed:
 - [MongoDB](https://www.mongodb.com/) (v4.x or higher)
 - [Docker](https://www.docker.com/) (optional, for containerized setup)
 
-### Steps
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/student-forum-api.git
-   cd student-forum-api
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables:**
-
-   Create a `.env` file in the root directory and add the following:
-
-   ```bash
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/student-forum
-   ```
-
-4. **Run the application:**
-
-   ```bash
-   npm start
-   ```
-
-   The server will start on `http://localhost:5000`.
-
-## Usage
 
 ### API Endpoints
 
